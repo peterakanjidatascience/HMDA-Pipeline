@@ -2,14 +2,12 @@ import argparse
 import csv
 from pathlib import Path
 
-
 REQUIRED_COLUMNS = [
     "action_taken",
     "state_abb",
     "respondent_id",
     "loan_amount_000s",
-    "applicant_income_000s",
-]
+    "applicant_income_000s"]
 
 
 def validate_headers(headers):
